@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: akshay dhenge, parkUrbn, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\Users\akshay\Documents\college work\parkurbn\NRF files\New folder\examples\peripheral\uart\pca10040\arm4\uart_pca10040.uvproj
+Project File Date:  12/07/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'nrf52832_xxaa'
+assembling arm_startup_nrf52.s...
+compiling system_nrf52.c...
+compiling app_uart_fifo.c...
+compiling main.c...
+..\..\main.c(74): warning:  #177-D: variable "err_code" was declared but never referenced
+      uint32_t err_code;
+..\..\main.c(84): warning:  #177-D: variable "err_code" was declared but never referenced
+      uint32_t err_code;
+..\..\main.c(184): warning:  #177-D: variable "cr" was declared but never referenced
+          uint8_t cr = 'h';
+..\..\main.c: 3 warnings, 0 errors
+compiling nrf_delay.c...
+compiling nrf_drv_common.c...
+compiling nrf_drv_uart.c...
+compiling app_error.c...
+compiling app_error_weak.c...
+compiling app_fifo.c...
+compiling app_util_platform.c...
+compiling nrf_assert.c...
+compiling retarget.c...
+linking...
+Program Size: Code=3416 RO-data=1132 RW-data=16 ZI-data=8512  
+FromELF: creating hex file...
+".\_build\nrf52832_xxaa.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:11
+</pre>
+</body>
+</html>
